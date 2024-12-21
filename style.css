@@ -36,7 +36,8 @@ hr {
 }
 
 input[type="text"] {
-    width: 100%;
+    width: 95%;
+    height: 23px;
     padding: 7px;
     font-size: 16px;
     border: 1px solid #bbb;
@@ -57,6 +58,11 @@ input[type="text"] {
     text-align: center;
 }
 
+.qr {
+    display: flex;
+    justify-content: center;
+}
+
 .qrcode {
-    margin: 17px 0;
+    margin: 17px;
 }
