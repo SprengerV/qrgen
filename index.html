@@ -18,11 +18,13 @@
                 </h1>
                 <hr/>
                 <div class="qr">
-                    <div class="sqrcode"></div>
+                    <!-- <div class="sqrcode"></div> -->
                     <div class="qrcode"></div>
                 </div>
                 <hr/>
-                <input type="text" placeholder="Paste text/URL here then press enter" onchange="generator()"/>
+                <form name="form">
+                    <input type="text" placeholder="Paste text/URL here then press enter" onsubmit="generatQr()"/>
+                </form>
             </div>
         </div>
         <script src="./script.js"></script>
